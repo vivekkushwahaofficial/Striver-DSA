@@ -40,7 +40,7 @@ public class SmallestNumber {
             arr[i] = scanner.nextInt();
         }
         int min = smallestElement(arr, n);
-        System.out.println("Smallest number from array: " + min);
+        System.out.println("Smallest number in a array: " + min);
     }
 }
 
