@@ -1,6 +1,5 @@
-package nqt_sheet;
+package nqt_sheet_problems_on_arrays;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ReverseArray {
