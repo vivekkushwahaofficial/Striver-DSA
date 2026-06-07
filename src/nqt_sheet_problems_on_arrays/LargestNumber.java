@@ -1,4 +1,4 @@
-package nqt_sheet;
+package nqt_sheet_problems_on_arrays;
 
 public class LargestNumber {
     public static int LargestElement(int[] arr){
