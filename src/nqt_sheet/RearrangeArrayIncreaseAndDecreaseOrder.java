@@ -5,15 +5,20 @@ import java.util.Arrays;
 public class RearrangeArrayIncreaseAndDecreaseOrder {
     public static void rearrangeArray(int[] arr){
         Arrays.sort(arr);
-        int n = arr.length - 1;
-        for(int i = n/2; i < n; i++){
-            int temp = arr[i];
-
+        int n = arr.length;
+        int left = n/2;
+        int right = n - 1;
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
+        System.out.println(Arrays.toString(arr));
     }
     public static void main(String[] args) {
-        int[] arr = {2, 3, 4, 5,7,4,8,};
-//        System.out.println(Arrays.toString(rearrangeArray(arr)));
-//        rearrangeArray(arr);
+        int[] arr = {2, 3, 4, 5,7,6,8,9};
+        rearrangeArray(arr);
     }
 }
