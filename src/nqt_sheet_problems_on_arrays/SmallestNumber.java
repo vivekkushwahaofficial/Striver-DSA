@@ -1,4 +1,4 @@
-package nqt_sheet;
+package nqt_sheet_problems_on_arrays;
 
 import java.util.Scanner;
 
