@@ -1,7 +1,7 @@
 package nqt_sheet_problems_on_arrays;
 
 public class SumOfArray {
-    public static int arraySum(int[] arr){
+    public static int arraySum(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
