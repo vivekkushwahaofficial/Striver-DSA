@@ -25,3 +25,6 @@ public class Palindrome {
         scanner.close();
     }
 }
+
+// Check if a String is Palindrome
+
